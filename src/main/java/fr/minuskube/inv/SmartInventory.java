@@ -74,7 +74,10 @@ public class SmartInventory {
     }
 
     public String getId() { return id; }
+
     public String getTitle() { return title; }
+    public void setTitle(String title) { this.title = title; }
+
     public InventoryType getType() { return type; }
     public int getRows() { return rows; }
     public int getColumns() { return columns; }
